@@ -7,6 +7,7 @@
 body {
     background-color: black;
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 .container {
@@ -19,7 +20,6 @@ header {
     height: 5rem;
     padding: 0.5rem;
     font-size: 0.8rem;
-    color: white;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -65,10 +65,60 @@ main {
     bottom: 0;
     padding: 0.3rem;
     font-size: 0.8rem;
-    color: white;
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 6rem;
+    width: 100%;
     background-color: #222222;
 }
+
+footer .left,
+footer .middle,
+footer .right {
+    display: flex;
+    align-items: center;
+}
+
+footer .right {
+    height: 100%;
+    background-color: #4a4a4a;
+}
+
+
+
+footer .item {
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+    /* TEST
+    background-color: grey; */
+}
+
+footer #end-meeting {
+    color: red;
+    padding: 1.5rem;
+}
+
+footer .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+footer .btn .icon {
+    font-size: 1.5rem;
+}
+
+footer .btn .icon.green {
+    color: #4bc800;
+}
+
+footer .item .chevron {
+    padding-left: 0.5rem;
+}
+
