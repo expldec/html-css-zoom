@@ -93,7 +93,7 @@ footer .right {
 footer .item {
     display: flex;
     align-items: center;
-    margin: 0 0.5rem;
+    padding: 0.5rem;
     /* TEST
     background-color: grey; */
 }
@@ -119,6 +119,6 @@ footer .btn .icon.green {
 }
 
 footer .item .chevron {
+    font-size: 0.5rem;
     padding-left: 0.5rem;
 }
-
